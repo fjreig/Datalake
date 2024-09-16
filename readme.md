@@ -9,7 +9,7 @@
 | ------------- |:-------------:| :-----:|
 | spark-master | spark | [spark cluster](http://localhost:8080) |
 | Nessie | Nessie | [nessie](http://localhost:19120) |
-| Minio | S3 | [minio](http://localhost:9091) |
+| Minio | S3 | [minio](http://localhost:9001) |
 | Dremio | Apache Dremio | [dremio](http://localhost:9047) |
 | PostgreSQL | PostgreSQL |  |
 

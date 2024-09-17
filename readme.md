@@ -38,6 +38,12 @@ Ejecutar pipeline de Postgres a Iceberg:
 docker exec -it spark python3 /opt/spark-apps/postgres2nessie.py
 ```
 
+Ejecutar pipeline de Postgres a Mongo:
+```
+docker exec -it spark python3 /opt/spark-apps/postgres2mongo.py
+```
+
+
 Consultar datos de la tabla Iceberg:
 ```
 docker exec -it spark python3 /opt/spark-apps/nessie.py

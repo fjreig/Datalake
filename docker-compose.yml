@@ -33,7 +33,7 @@ services:
       - .env
 
   spark:
-    image: bitnami/spark:latest
+    image: bitnami/spark:3.5.2
     container_name: spark
     environment:
       - SPARK_MODE=master
